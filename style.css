@@ -612,3 +612,74 @@ button { font: inherit; cursor: pointer; border: none; background: none; color: 
   .section { padding: 64px 0; }
   .hero { padding: 56px 0 64px; }
 }
+/* =========================================
+   FREE AI INCOME STARTER GUIDE
+   ========================================= */
+
+.lead-magnet {
+  margin: 40px auto;
+  padding: 45px 25px;
+  max-width: 1000px;
+  text-align: center;
+  background: linear-gradient(135deg, #f8faff 0%, #ffffff 100%);
+  border: 1px solid #e2e8f0;
+  border-radius: 28px;
+  box-shadow: 0 12px 35px rgba(37, 99, 235, 0.10);
+}
+
+.lead-magnet h2 {
+  margin: 0 0 14px;
+  font-size: 32px;
+  line-height: 1.2;
+  color: var(--ink);
+}
+
+.lead-magnet p {
+  max-width: 700px;
+  margin: 0 auto 25px;
+  font-size: 17px;
+  line-height: 1.7;
+  color: var(--gray-600);
+}
+
+.lead-magnet .btn-lg {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 28px;
+  background: var(--grad-primary);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 12px;
+  box-shadow: var(--shadow-md);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.lead-magnet .btn-lg:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .lead-magnet {
+    margin: 30px 15px;
+    padding: 35px 20px;
+    border-radius: 22px;
+  }
+
+  .lead-magnet h2 {
+    font-size: 26px;
+  }
+
+  .lead-magnet p {
+    font-size: 16px;
+  }
+
+  .lead-magnet .btn-lg {
+    width: 100%;
+    padding: 15px 20px;
+  }
+}
